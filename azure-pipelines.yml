@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 jobs: 
-- job: 'Run Tests'
+- job: 'run-tests'
   steps:
 
   - task: UsePythonVersion@0
